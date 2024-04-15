@@ -1,8 +1,8 @@
-Hangman Game
-Description
+# Hangman Game
+# Description
 This Python script implements a simple command-line version of the classic game Hangman. The player guesses letters to uncover a hidden word. They have limited attempts before the game ends.
 
-Usage
+# Usage
 Run the hangman.py script.
 Follow the prompts to guess letters or quit the game.
 Files
@@ -30,11 +30,11 @@ while not game_over:
         game_over = True
 The script starts by importing necessary functions and declaring game variables. It then enters a main game loop where the player guesses letters until they either quit or the game ends.
 
-Receipt Generator
-Description
+# Receipt Generator
+# Description
 This Python script generates a receipt for a fictional shopping transaction. It includes details such as product names, prices, company information, and a total.
 
-Usage
+# Usage
 Run the receipt.py script.
 The receipt will be displayed in the console.
 Files
@@ -94,11 +94,11 @@ print("\n\t{}\n".format(message))
 print("*" * 50)
 The script generates a receipt with product details, company information, and a total price.
 
-Shopping Cart
-Description
+# Shopping Cart
+# Description
 This Python script simulates a simple shopping cart system. Users can add, remove, view, or clear items in their cart.
 
-Usage
+# Usage
 Run the shoppingcart.py script.
 Follow the prompts to interact with the shopping cart.
 Files
@@ -172,16 +172,16 @@ def main():
 main()
 The script defines functions for adding, removing, displaying, and clearing items in the shopping cart. It then runs a main loop to interact with the user.
 
-Calculator
-Description
+# Calculator
+# Description
 This Python script implements a basic calculator. It performs addition, subtraction, multiplication, or division based on user input.
 
-Usage
+# Usage
 Run the calculator.py script.
 Follow the prompts to select an operation and input numbers.
 Files
 calculator.py: Contains the calculator implementation.
-How to Use
+# How to Use
 Start the script.
 Choose the desired operation (addition, subtraction, multiplication, or division).
 Input the numbers to perform the operation.
