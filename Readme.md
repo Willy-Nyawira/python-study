@@ -201,3 +201,47 @@ num1 = input("What is the first number? ")
 num2 = input("What is the second number? ")
 print("First Number: {}".format(num1)) # for testing purposes
 print("Second Number
+
+# User Authentication System
+# Overview
+This Python script implements a simple user authentication system. The system allows users to register with unique email addresses and passwords, log in securely, and log out when finished. It provides error handling for incorrect login attempts and registration failures. User credentials are stored in a CSV file for persistence.
+
+# Features
+User Registration: New users can register by providing their email and password. Passwords are verified by re-entering.
+User Login: Registered users can log in with their email and password.
+Logout: Logged-in users can log out of the system.
+Error Handling: The system provides error messages for incorrect login attempts and registration failures, ensuring a smooth user experience.
+Data Persistence: User credentials are stored in a CSV file (users.csv) for future logins.
+User-Friendly Interface: The script provides clear instructions and options for users to interact with the system.
+# Usage
+Running the Script:
+
+Execute the script user_authentication.py in your Python environment.
+Options:
+
+Login: Existing users can log in with their registered email and password.
+Register: New users can register by providing a unique email and password.
+Quit: Exit the program.
+Login Process:
+
+If choosing to login, enter your registered email and password.
+Upon successful login, you'll be granted access to the system.
+Registration Process:
+
+If choosing to register, provide a unique email and password.
+Re-enter the password for verification.
+Upon successful registration, you'll be notified and can proceed to login.
+Logout:
+
+When logged in, you'll have the option to logout from the system.
+Choose the "Logout" option to securely end your session.
+Exiting the Program:
+
+At any time, you can choose the "Quit" option to exit the program.
+# Dependencies
+Python 3.x
+CSV Module: Standard Python library for reading and writing CSV files.
+IPython.display Module: Used for clearing output in the console.
+# File Structure
+user_authentication.py: Main Python script containing the authentication system logic.
+users.csv: CSV file to store user credentials.
